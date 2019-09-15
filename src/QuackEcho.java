@@ -1,4 +1,15 @@
-package PACKAGE_NAME;
+public class QuackEcho implements QuackAble {
+    private QuackAble duck;
+    QuackEcho(QuackAble duck) {
+        this.duck = duck;
+    }
+    public void quack() {
+        duck.quack();
+        echo();
+    }
 
-public class QuackEcho {
+    private void echo(){
+        System.out.print("Echo : ");
+        duck.quack();
+    }
 }

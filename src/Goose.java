@@ -1,5 +1,5 @@
-public class Goose {
-    public void honk() {
+class Goose {
+    void honk() {
         System.out.println("Honk");
     }
 }

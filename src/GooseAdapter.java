@@ -1,6 +1,6 @@
-public class GooseAdapter implements Quackable {
-    Goose goose;
-    public GooseAdapter(Goose goose) {
+public class GooseAdapter implements QuackAble {
+    private Goose goose;
+    GooseAdapter(Goose goose) {
         this.goose = goose;
     }
     public void quack() {

@@ -1,3 +1,3 @@
-public interface Quackable {
-    public void quack();
+public interface QuackAble {
+    void quack();
 }
